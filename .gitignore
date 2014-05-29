@@ -10,6 +10,7 @@ profile
 *.moved-aside
 .DS_Store
 *.sublime-workspace
-./source/*.rtf
+source/*.rtf
+source/*.md
 Acknowledgments.rtf
 acknowledge.cfg
