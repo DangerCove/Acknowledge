@@ -12,5 +12,6 @@ profile
 *.sublime-workspace
 source/*.rtf
 source/*.md
+!source/20_acknowledge.md
 Acknowledgments.rtf
 acknowledge.cfg
