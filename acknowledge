@@ -52,7 +52,7 @@ fi
 ACKNOWLEDGEMENT_PATH=$(find "$PODS_PATH" -type f -name "Pods-*acknowledgements.markdown" | head -n 1)
 if [ -f "$ACKNOWLEDGEMENT_PATH" ]; then
   echo "\nUsing multimarkdown to convert Cocoapod acknowledgments."
-  $MULTIMARKDOWN_PATH $ACKNOWLEDGEMENT_PATH -o ./source/10_Pods-acknowledgements.rtf -t rtf > /dev/null 2>&1
+  $MULTIMARKDOWN_PATH "$ACKNOWLEDGEMENT_PATH" -o ./source/10_Pods-acknowledgements.rtf -t rtf > /dev/null 2>&1
 fi
 
 # How to add other acknowledgments
